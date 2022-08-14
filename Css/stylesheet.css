@@ -7,8 +7,30 @@ body{
 header {
   text-align: center;
 }
+#heading{
+  font-family:cursive;
+  font: size 110%;;
+  background-color: lightslategray;
+  color:white;
+}
+
+#sidebar{
+  font-size: 110%;
+  background-color:lightblue;
+  color: black;
+  font-family: cursive;
+  width: 20%;
+}
+.nav-menu{
+  list-style-type: none;
+
+
+}
 
 footer {
-  background-color: #343330;
+  background-color:lightslategray;
   text-align: center;
+  font-size: 120%;
+  color: #FCF7F8;
+
 }
