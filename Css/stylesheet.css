@@ -13,16 +13,25 @@ header {
   background-color: lightslategray;
   color:white;
 }
+#CendraPalmerPhoto{
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  border: 5px solid lightskyblue
+}
+
 
 #sidebar{
-  font-size: 110%;
+  font-size: 85%;
   background-color:lightblue;
   color: black;
   font-family: cursive;
-  width: 20%;
+  width: 10%;
+  padding: 1rem;
 }
 .nav-menu{
   list-style-type: none;
+  padding: 0%;
 
 
 }
@@ -30,7 +39,12 @@ header {
 footer {
   background-color:lightslategray;
   text-align: center;
-  font-size: 120%;
+  font-size: 200%;
   color: #FCF7F8;
-
 }
+  .icons{
+    width: 3rem;
+    margin: 0rem;
+    padding: 0%;
+  }
+
