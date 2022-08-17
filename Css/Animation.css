@@ -1,0 +1,22 @@
+
+.icons {
+  animation-duration: 100s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left:100%;
+    width:3px;
+  }
+
+  to {
+    margin-left:0%;
+    width: 3px;
+  }
+}
+
+
+

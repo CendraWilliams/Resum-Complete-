@@ -1,0 +1,14 @@
+ /* The animation code */
+@keyframes contacticons{
+  
+}
+
+/* The element to apply the animation to */
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name:#contacticons
+  animation-duration: 4s;
+  animation-iteration-count: infinite;    
+} 

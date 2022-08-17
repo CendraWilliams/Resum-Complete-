@@ -48,12 +48,29 @@ header {
 footer {
   background-color:lightslategray;
   text-align: center;
-  font-size: 200%;
+  font-size: 100%;
   color: #FCF7F8;
 }
   .icons{
-    width: 3rem;
+    width: 2rem;
     margin: 0rem;
     padding: 0%;
   }
-
+  .icons {
+    animation-duration: 10s;
+    animation-name: slidein;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left:50%;
+      width: 30px;
+    }
+  
+    to {
+      margin-left:0%;
+      width: 30px;
+    }
+  }
